@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@import '@fontsource/playfair-display/400.css';
+@import '@fontsource/playfair-display/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/300.css';
+
+@theme {
+	--color-ink: #1a1008;
+	--color-paper: #eddfc8;
+	--color-amber: #b85c2a;
+	--font-family-display: 'Playfair Display', serif;
+	--font-family-sans: 'Inter', sans-serif;
+}
+
+html {
+	background-color: #1a1008;
+	color: #eddfc8;
+	font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
